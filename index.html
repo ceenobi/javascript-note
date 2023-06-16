@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Intro to JavaScript</h1>
+    <p>JavaScript to program the behavior of web pages</p>
+    <ul>
+        <li>The Original JavaScript ES1 ES2 ES3 (1997-1999)</li>
+        <li>The First Main Revision ES5 (2009)</li>
+        <li>The Second Revision ES6 (2015)</li>
+        <li>All Yearly Additions (2016, 2017, 2018, 2019, 2020)</li>
+    </ul>
+    <p>In HTML, JavaScript code is inserted between script tags.</p>
+    <p>Placing scripts at the bottom of the body element improves the display speed, because script interpretation slows
+        down the display.</p>
+    <p>External scripts are practical when the same code is used in many different web pages. JavaScript files have the
+        file extension .js. To use an external script, put the name of the script file in the src (source) attribute of
+        a tag</p>
+
+    <p>Placing scripts in external files has some advantages:</p>
+    <ul>
+        <li>It separates HTML and code</li>
+        <li>It makes HTML and JavaScript easier to read and maintain</li>
+        <li>Cached JavaScript files can speed up page loads</li>
+        <li>To add several script files to one page - use several script tags:</li>
+    </ul>
+    <h4>JavaScript can "display" data in different ways:</h4>
+    <ul>
+        <li>Writing into an HTML element, using innerHTML.</li>
+        <li>Writing into the HTML output using document.write().</li>
+        <li>Writing into an alert box, using window.alert().</li>
+        <li>Writing into the browser console, using console.log().</li>
+    </ul>
+    <p>In JavaScript, the window object is the global scope object. This means that variables, properties, and methods
+        by default belong to the window object. This also means that specifying the window keyword is optional:</p>
+    <p>For debugging purposes, you can call the console.log() method in the browser to display data.</p>
+    <p>JavaScript does not have any print object or print methods. You cannot access output devices from JavaScript. The
+        only exception is that you can call the window.print() method in the browser to print the content of the current
+        window.</p>
+    <h3>Statements in Javascript</h3>
+    <p>A JavaScript program is a list of programming statements.</p>
+    <p>JavaScript statements are composed of: Values, Operators, Expressions, Keywords, and Comments.</p>
+    <p id="demo"></p>
+
+    <h3>JavaScript Keywords</h3>
+    <p>JavaScript statements often start with a keyword to identify the JavaScript action to be performed.
+    </p>
+    <p>var Declares a variable
+        let Declares a block variable
+        const Declares a block constant
+        if Marks a block of statements to be executed on a condition
+        switch Marks a block of statements to be executed in different cases
+        for Marks a block of statements to be executed in a loop
+        function Declares a function
+        return Exits a function
+        try Implements error handling to a block of statements</p>
+    <p>JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.</p>
+    <h3>JavaScript Identifiers / Names</h3>
+    <p>dentifiers are JavaScript names. Identifiers are used to name variables and keywords, and functions.The rules for
+        legal names are the same in most programming languages.A JavaScript name must begin with:</p>
+    <ul>
+        <li>A letter (A-Z or a-z)</li>
+        <li>A dollar sign ($)</li>
+        <li>Or an underscore (_)</li>
+    </ul>
+    <p>Numbers are not allowed as the first character in names.This way JavaScript can easily distinguish identifiers
+        from numbers.</p>
+    <h3>JavaScript is Case Sensitive</h3>
+    <p>All JavaScript identifiers are case sensitive.The variables lastName and lastname, are two different variables:
+    </p>
+    <h3>JavaScript and Camel Case</h3>
+    <p>We have different ways of joining multiple words into one variable name:</p>
+    <p>Hyphens: first-name, last-name, master-card, inter-city. Hyphens are not allowed in JavaScript. They are reserved
+        for subtractions.</p>
+    <p>Underscore: first_name, last_name, master_card, inter_city.</p>
+    <p>Upper Camel Case (Pascal Case): FirstName, LastName, MasterCard, InterCity.</p>
+    <p>Lower Camel Case: JavaScript programmers tend to use camel case that starts with a lowercase letter: firstName,
+        lastName, masterCard, interCity.</p>
+    <h3>The Assignment Operator</h3>
+    <p>In JavaScript, the equal sign (=) is an "assignment" operator, not an "equal to" operator.</p>
+    <p>x = x + 5. it assigns the value of x + 5 to x.</p>
+    <p>The "equal to" operator is written like "==" in JavaScript.</p>
+
+    <a href="./excercise.html">counterapp</a>
+
+    <script src="./introvariables.js"></script>
+    <!-- <script src="operators.js"></script> -->
+    <script src="datatypes.js"></script>
+    <script src="functions.js"></script>
+    <script src="objects.js"></script>
+    <script src="stringmethods.js"></script>
+    <script src="arrays.js"></script>
+    <script src="classwork.js"></script>
+    <script src="operators.js"></script>
+    <script src="ifelseswitch.js"></script>
+    <script src="loops.js"></script>
+    <script src="higherOrderFunctions.js"></script>
+    <script src="asyncawait.js"></script>
+    <!-- <script src="dom.js"></script> -->
+    <script type="module"src="./modules/module.js"></script>
+</body>
+
+</html>

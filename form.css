@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+form {
+  width: 600px;
+  background-color: antiquewhite;
+  padding: 50px;
+  border-radius: 20px;
+}
+.form-adjust {
+  display: flex;
+  align-items: center;
+}
+.form-adjust label {
+  width: 300px;
+}
+
+.form-adjust input {
+  width: 300px;
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  margin: 10px 0;
+  outline: none;
+}
+input,
+label {
+  font-size: 25px;
+  color: teal;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: teal;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 4px hsl(246, 25%, 77%);
+  transition: all 0.1s ease;
+  cursor: pointer;
+  width: 220px;
+  height: 60px;
+  font-size: 20px;
+  margin: 40px auto;
+}
